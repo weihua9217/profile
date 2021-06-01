@@ -25,7 +25,7 @@ const Experience = () => {
                 <div class="flex-grow-1">
                     <h3 class="mb-0">資訊部門實習生</h3>
                     <div class="subheading mb-3">中國信託銀行</div>
-                    <p>於實習期間學習用撰寫全端程式，對網頁開發萌發了極大的興趣。也於實習期間學習到了RPA (Robotic Process Automation) 的技術。</p>
+                    <p>於實習期間學習撰寫全端網頁程式，對網頁開發萌發了極大的興趣。也於實習期間學習到了RPA (Robotic Process Automation) 的技術。</p>
                 </div>
                 <div class="flex-shrink-0"><span class="text-primary">February 2021 - June 2021</span></div>
             </div>

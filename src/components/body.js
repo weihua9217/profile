@@ -4,6 +4,7 @@ import Experience from "./bodyComponents/experience"
 import Interests from "./bodyComponents/interests"
 import Skills from "./bodyComponents/skills"
 import Autobiography from "./bodyComponents/autobiography"
+
 const Body = () => {
     return( 
         <body id="page-top">
@@ -11,8 +12,13 @@ const Body = () => {
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
                 <span class="d-block d-lg-none">Matthew Lee</span>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+             data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+              aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
             <div class="collapse navbar-collapse" id="navbarResponsive">
+                
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
@@ -21,6 +27,7 @@ const Body = () => {
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#autobiography">Autobiography</a></li>
                 </ul>
+            
             </div>
         </nav>
  

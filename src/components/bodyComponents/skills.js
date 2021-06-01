@@ -21,11 +21,11 @@ const Skills = () => {
                 </li>
                 <li>
                     <span class="fa-li"><i class="fas fa-check"></i></span>
-                    Java : 開發過一款android的番茄時鐘計時器，也於實習時使用Java中的Spring MVC開發過往業後端
+                    Java : 開發過一款android的番茄時鐘計時器，也於實習時使用Java中的Spring MVC開發過網頁後端。
                 </li>
                 <li>
                     <span class="fa-li"><i class="fas fa-check"></i></span>
-                    HTML,CSS,Javascript : 基本的網頁前端語言
+                    HTML,CSS,Javascript : 了解基本的網頁前端語言。
                 </li>
 
 
