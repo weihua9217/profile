@@ -4,6 +4,11 @@ import Experience from "./bodyComponents/experience"
 import Interests from "./bodyComponents/interests"
 import Skills from "./bodyComponents/skills"
 import Autobiography from "./bodyComponents/autobiography"
+import React,{Component} from "react"
+import styled,{keyframes} from "styled-components"
+import {bounce} from 'react-animations'
+
+const Bounce = styled.div`animation: 2s ${keyframes`${bounce}`} infinite`;
 
 const Body = () => {
     return( 
@@ -30,7 +35,6 @@ const Body = () => {
             
             </div>
         </nav>
- 
         <div class="container-fluid p-0">
             <About />
             <hr class="m-0" />

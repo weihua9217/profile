@@ -1,11 +1,17 @@
+import React,{Component} from "react"
+import styled,{keyframes} from "styled-components"
+import {bounce} from 'react-animations'
+const Bounce = styled.div`animation: 2s ${keyframes`${bounce}`} infinite`;
+
 const About = () => {
         return(    
         <section class="resume-section" id="about">
                 <div class="resume-section-content">
-                    <h1 class="mb-0">
+                <Bounce><h1 class="mb-0">
                         Matthew
                         <span class="text-primary">Lee</span>
                     </h1>
+                    </Bounce>
                     <div class="subheading mb-5">
                         contact me &nbsp;: &nbsp;
                         <a class="text-primary">weihua9217[at]gmail.com</a>
